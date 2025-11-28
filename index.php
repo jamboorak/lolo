@@ -115,7 +115,7 @@ $conn->close();
     <div id="chatbot-container" class="hidden fixed bottom-4 right-4 w-80 md:w-96 bg-white rounded-xl shadow-2xl border-2 border-brgy-primary z-50 flex flex-col max-h-[600px]">
         <div class="bg-brgy-primary text-white p-4 rounded-t-xl flex justify-between items-center">
             <h3 class="font-bold text-lg">💬 Chat with Us</h3>
-            <button onclick="toggleChatbot()" class="text-white hover:text-brgy-secondary text-2xl font-bold">&times;</button>
+            <button onclick="toggleChatbot()" class="text-black hover:text-white bg-white hover:bg-gray-700 w-8 h-8 rounded-full flex items-center justify-center text-2xl font-bold transition-colors duration-200">&times;</button>
         </div>
         
         <!-- Message Type Selection -->
